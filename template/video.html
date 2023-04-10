@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Stream Example</title>
+</head>
+<body>
+  <h1 style="color: white;">You are Videos is {{.}}</h1>
+  <div class="video">
+  <video width="1066.67" height="600" controls>
+    <source src="http://localhost:8008/displays/{{.}}" type="video/mp4">
+  </video>
+  <style>
+    body {background-color: darkslategray; }
+    </style>
+</div>
+</body>
+</html>
